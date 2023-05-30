@@ -8,16 +8,17 @@ using System.Threading.Tasks;
 
 namespace DataSourse.ArticlsSourse
 {
-    public class ArticlWithCachingSourse : IArticleDataSourse
+    public class ArticlWithCachingSourse : IAsyncArticleDataSourse
     {
         private readonly IArticleListGetter _articleListGetter;
 
-        public Articl GetArticlByID(long id)
+
+        public Task<List<ArticleShortInfo>> GetAvaliableArticlsAsync()
         {
             throw new NotImplementedException();
         }
 
-        public List<ArticleShortInfo> GetAvaliableArticls()
+        public Task<Articl> GetArticlByIDAsync(long id)
         {
             throw new NotImplementedException();
         }

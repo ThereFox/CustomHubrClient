@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace Model.Abstraction
 {
-    public interface IArticleDataSourse
+    public interface IAsyncArticleDataSourse
     {
-        public List<ArticleShortInfo> GetAvaliableArticls();
-        public Articl GetArticlByID(long id);
+        public Task<List<ArticleShortInfo>> GetAvaliableArticlsAsync();
+        public Task<Articl> GetArticlByIDAsync(long id);
     }
 }

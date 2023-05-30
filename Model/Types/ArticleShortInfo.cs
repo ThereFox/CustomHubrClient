@@ -10,13 +10,17 @@ namespace Model.Types
     {
         public long Id { get; init; }
         public string Title { get; init; }
-        public string Preview { get; init; }
+        public List<string> Tags { get; init; }
+        public int Rating { get; init; }
+        public uint CommentaryCount { get; init; }
 
-        public ArticleShortInfo(long id, string title, string preview)
+        public ArticleShortInfo(long id, string title, List<string> tags, int rating, uint commentaryCount)
         {
             Id = id;
             Title = title;
-            Preview = preview;
+            Tags = tags;
+            Rating = rating;
+            CommentaryCount = commentaryCount;
         }
     }
 }
