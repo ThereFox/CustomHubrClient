@@ -10,12 +10,13 @@ namespace DataSourse.ArticlsSourse
 {
     public class ArticlWithCachingSourse : IAsyncArticleDataSourse
     {
-        private readonly IArticleListGetter _articleListGetter;
+        private readonly IAsyncArticleListGetter _articleListGetter;
 
 
-        public Task<List<ArticleShortInfo>> GetAvaliableArticlsAsync()
+        public async Task<List<ArticleShortInfo>> GetAvaliableArticlsAsync()
         {
-            throw new NotImplementedException();
+            var avaliavleArticl = await _articleListGetter.GetArticlsListAsync();
+            return avaliavleArticl;
         }
 
         public Task<Articl> GetArticlByIDAsync(long id)
@@ -23,7 +24,7 @@ namespace DataSourse.ArticlsSourse
             throw new NotImplementedException();
         }
 
-        public ArticlWithCachingSourse(IArticleListGetter articleListGetter)
+        public ArticlWithCachingSourse(IAsyncArticleListGetter articleListGetter)
         {
             _articleListGetter = articleListGetter;
         }

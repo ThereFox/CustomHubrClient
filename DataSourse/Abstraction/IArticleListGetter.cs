@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace Model.Abstraction
 {
-    public interface IArticleListGetter
+    public interface IAsyncArticleListGetter
     {
-        public List<ArticleShortInfo> GetArticlsList();
+        public Task<List<ArticleShortInfo>> GetArticlsListAsync();
     }
 }

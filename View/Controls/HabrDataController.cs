@@ -23,9 +23,9 @@ namespace View.Controls
             return View(articls);
         } 
 
-        public async IActionResult GetArticklComponent(Articl articl)
+        public IActionResult ArticlShortInfoComponent(ArticleShortInfo articl)
         {
-            return PartialView( articl);
+            return PartialView(articl);
         }
     }
 }

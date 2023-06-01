@@ -8,18 +8,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
+using static System.Net.WebRequestMethods;
 
 namespace DataSourse.ArticlsSourse.Parsers
 {
-    public class MainPageParser : IArticleListGetter
+    public class MainPageParser : IAsyncArticleListGetter
     {
-        private readonly string URLBase; //https://habr.com/ru/all/page1/
+        private readonly string URLBase; 
         private readonly HttpClient _client;
 
-        public List<ArticleShortInfo> GetArticlsList()
+        public async Task<List<ArticleShortInfo>> GetArticlsListAsync()
         {
-            var pageContent = getPageContent();
-            return null;
+            var pageContent = await getPageContent();
+            var content = parsePageContent(pageContent);
+            return content;
         }
         private async ValueTask<string> getPageContent()
         {
@@ -29,7 +31,16 @@ namespace DataSourse.ArticlsSourse.Parsers
         }
         private HttpRequestMessage createRequestMessage(int pageId)
         {
-            var Url = URLBase + pageId;
+            string Url;
+
+            if(pageId == 0)
+            {
+                Url = URLBase;
+            }
+            else
+            {
+                Url = URLBase + "/page" + pageId;
+            }
             var message = new HttpRequestMessage(HttpMethod.Get, Url);
             return message;
         }
@@ -72,7 +83,7 @@ namespace DataSourse.ArticlsSourse.Parsers
             var articls = getArticlsFromDocument(document);
             var info = GetArticleShortInfoFromArticlsList(articls);
 
-            return null;
+            return info;
 
         }
 
@@ -90,14 +101,39 @@ namespace DataSourse.ArticlsSourse.Parsers
         }
         private List<ArticleShortInfo> GetArticleShortInfoFromArticlsList(List<HtmlNode> articls)
         {
-            return articls.ConvertAll(getArticlShortInfoFromArticl);   
+            var articlsResult = articls.ConvertAll(getArticlShortInfoFromArticl);
+            return articlsResult;   
         }
         private ArticleShortInfo getArticlShortInfoFromArticl(HtmlNode articl)
         {
             var titleField = articl.QuerySelector("h2.tm-title_h2");
-            var tags = articl.QuerySelectorAll(".tm-article-snippet__hubs-container .tm-article-snippet__hubs .tm-article-snippet__hubs-item .tm-article-snippet__hubs-item-link");
+            string name = titleField.QuerySelector("a span").InnerText;
+            var id = titleField.QuerySelector("a").GetAttributeValue("href", "0").Split("/").Reverse().ElementAt(1) ;
 
-            return null;
+            var tags = articl
+                .QuerySelectorAll(".tm-article-snippet__hubs-container .tm-article-snippet__hubs .tm-article-snippet__hubs-item .tm-article-snippet__hubs-item-link")
+                .ToList()
+                .ConvertAll(
+                    element =>
+                        element
+                        .InnerText
+                );
+
+            var footerField = articl.QuerySelector(".tm-data-icons");
+            var reitingText = footerField.QuerySelector(".tm-votes-meter__value").InnerText;
+            var commentsText = footerField.QuerySelector(".tm-article-comments-counter-link__value").InnerText;
+
+            var reiting = int.Parse( reitingText );
+            var comments = uint.Parse(commentsText);
+
+
+            return new ArticleShortInfo(long.Parse(id), name, tags, reiting, comments);
         }
+        public MainPageParser()
+        {
+            _client = new();
+            URLBase = @"https://habr.com/ru/all";
+        }
+
     }
 }
