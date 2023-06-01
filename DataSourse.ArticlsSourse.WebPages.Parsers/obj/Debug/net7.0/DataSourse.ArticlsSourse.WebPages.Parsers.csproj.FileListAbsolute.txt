@@ -1,0 +1,17 @@
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\DataSourse.ArticlsSourse.WebPages.Parsers\bin\Debug\net7.0\DataSourse.ArticlsSourse.WebPages.Parsers.deps.json
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\DataSourse.ArticlsSourse.WebPages.Parsers\bin\Debug\net7.0\DataSourse.ArticlsSourse.WebPages.Parsers.dll
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\DataSourse.ArticlsSourse.WebPages.Parsers\bin\Debug\net7.0\DataSourse.ArticlsSourse.WebPages.Parsers.pdb
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\DataSourse.ArticlsSourse.WebPages.Parsers\bin\Debug\net7.0\DataSourse.ArticlsSourse.WithCache.dll
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\DataSourse.ArticlsSourse.WebPages.Parsers\bin\Debug\net7.0\Model.dll
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\DataSourse.ArticlsSourse.WebPages.Parsers\bin\Debug\net7.0\DataSourse.ArticlsSourse.WithCache.pdb
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\DataSourse.ArticlsSourse.WebPages.Parsers\bin\Debug\net7.0\Model.pdb
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\DataSourse.ArticlsSourse.WebPages.Parsers\obj\Debug\net7.0\DataSourse.ArticlsSourse.WebPages.Parsers.csproj.AssemblyReference.cache
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\DataSourse.ArticlsSourse.WebPages.Parsers\obj\Debug\net7.0\DataSourse.ArticlsSourse.WebPages.Parsers.GeneratedMSBuildEditorConfig.editorconfig
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\DataSourse.ArticlsSourse.WebPages.Parsers\obj\Debug\net7.0\DataSourse.ArticlsSourse.WebPages.Parsers.AssemblyInfoInputs.cache
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\DataSourse.ArticlsSourse.WebPages.Parsers\obj\Debug\net7.0\DataSourse.ArticlsSourse.WebPages.Parsers.AssemblyInfo.cs
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\DataSourse.ArticlsSourse.WebPages.Parsers\obj\Debug\net7.0\DataSourse.ArticlsSourse.WebPages.Parsers.csproj.CoreCompileInputs.cache
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\DataSourse.ArticlsSourse.WebPages.Parsers\obj\Debug\net7.0\DataSourse.ArticlsSourse.WebPages.Parsers.csproj.CopyComplete
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\DataSourse.ArticlsSourse.WebPages.Parsers\obj\Debug\net7.0\DataSourse.ArticlsSourse.WebPages.Parsers.dll
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\DataSourse.ArticlsSourse.WebPages.Parsers\obj\Debug\net7.0\refint\DataSourse.ArticlsSourse.WebPages.Parsers.dll
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\DataSourse.ArticlsSourse.WebPages.Parsers\obj\Debug\net7.0\DataSourse.ArticlsSourse.WebPages.Parsers.pdb
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\DataSourse.ArticlsSourse.WebPages.Parsers\obj\Debug\net7.0\ref\DataSourse.ArticlsSourse.WebPages.Parsers.dll

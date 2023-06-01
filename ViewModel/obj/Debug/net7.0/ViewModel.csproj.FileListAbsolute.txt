@@ -1,0 +1,12 @@
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\ViewModel\bin\Debug\net7.0\ViewModel.deps.json
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\ViewModel\bin\Debug\net7.0\ViewModel.dll
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\ViewModel\bin\Debug\net7.0\ViewModel.pdb
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\ViewModel\obj\Debug\net7.0\ViewModel.csproj.AssemblyReference.cache
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\ViewModel\obj\Debug\net7.0\ViewModel.GeneratedMSBuildEditorConfig.editorconfig
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\ViewModel\obj\Debug\net7.0\ViewModel.AssemblyInfoInputs.cache
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\ViewModel\obj\Debug\net7.0\ViewModel.AssemblyInfo.cs
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\ViewModel\obj\Debug\net7.0\ViewModel.csproj.CoreCompileInputs.cache
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\ViewModel\obj\Debug\net7.0\ViewModel.dll
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\ViewModel\obj\Debug\net7.0\refint\ViewModel.dll
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\ViewModel\obj\Debug\net7.0\ViewModel.pdb
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\ViewModel\obj\Debug\net7.0\ref\ViewModel.dll

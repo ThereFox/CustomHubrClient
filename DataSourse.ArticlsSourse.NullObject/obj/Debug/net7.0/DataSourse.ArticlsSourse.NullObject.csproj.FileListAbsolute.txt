@@ -1,0 +1,15 @@
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\DataSourse.ArticlsSourse.NullObject\bin\Debug\net7.0\DataSourse.ArticlsSourse.NullObject.deps.json
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\DataSourse.ArticlsSourse.NullObject\bin\Debug\net7.0\DataSourse.ArticlsSourse.NullObject.dll
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\DataSourse.ArticlsSourse.NullObject\bin\Debug\net7.0\DataSourse.ArticlsSourse.NullObject.pdb
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\DataSourse.ArticlsSourse.NullObject\bin\Debug\net7.0\Model.dll
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\DataSourse.ArticlsSourse.NullObject\bin\Debug\net7.0\Model.pdb
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\DataSourse.ArticlsSourse.NullObject\obj\Debug\net7.0\DataSourse.ArticlsSourse.NullObject.csproj.AssemblyReference.cache
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\DataSourse.ArticlsSourse.NullObject\obj\Debug\net7.0\DataSourse.ArticlsSourse.NullObject.GeneratedMSBuildEditorConfig.editorconfig
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\DataSourse.ArticlsSourse.NullObject\obj\Debug\net7.0\DataSourse.ArticlsSourse.NullObject.AssemblyInfoInputs.cache
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\DataSourse.ArticlsSourse.NullObject\obj\Debug\net7.0\DataSourse.ArticlsSourse.NullObject.AssemblyInfo.cs
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\DataSourse.ArticlsSourse.NullObject\obj\Debug\net7.0\DataSourse.ArticlsSourse.NullObject.csproj.CoreCompileInputs.cache
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\DataSourse.ArticlsSourse.NullObject\obj\Debug\net7.0\DataSourse.ArticlsSourse.NullObject.csproj.CopyComplete
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\DataSourse.ArticlsSourse.NullObject\obj\Debug\net7.0\DataSourse.ArticlsSourse.NullObject.dll
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\DataSourse.ArticlsSourse.NullObject\obj\Debug\net7.0\refint\DataSourse.ArticlsSourse.NullObject.dll
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\DataSourse.ArticlsSourse.NullObject\obj\Debug\net7.0\DataSourse.ArticlsSourse.NullObject.pdb
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\DataSourse.ArticlsSourse.NullObject\obj\Debug\net7.0\ref\DataSourse.ArticlsSourse.NullObject.dll

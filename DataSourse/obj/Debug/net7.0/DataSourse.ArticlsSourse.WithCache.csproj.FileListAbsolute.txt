@@ -1,0 +1,15 @@
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\DataSourse\bin\Debug\net7.0\DataSourse.ArticlsSourse.WithCache.deps.json
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\DataSourse\bin\Debug\net7.0\DataSourse.ArticlsSourse.WithCache.dll
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\DataSourse\bin\Debug\net7.0\DataSourse.ArticlsSourse.WithCache.pdb
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\DataSourse\bin\Debug\net7.0\Model.dll
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\DataSourse\bin\Debug\net7.0\Model.pdb
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\DataSourse\obj\Debug\net7.0\DataSourse.ArticlsSourse.WithCache.csproj.AssemblyReference.cache
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\DataSourse\obj\Debug\net7.0\DataSourse.ArticlsSourse.WithCache.GeneratedMSBuildEditorConfig.editorconfig
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\DataSourse\obj\Debug\net7.0\DataSourse.ArticlsSourse.WithCache.AssemblyInfoInputs.cache
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\DataSourse\obj\Debug\net7.0\DataSourse.ArticlsSourse.WithCache.AssemblyInfo.cs
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\DataSourse\obj\Debug\net7.0\DataSourse.ArticlsSourse.WithCache.csproj.CoreCompileInputs.cache
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\DataSourse\obj\Debug\net7.0\DataSourse.ArticlsSourse.WithCache.csproj.CopyComplete
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\DataSourse\obj\Debug\net7.0\DataSourse.ArticlsSourse.WithCache.dll
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\DataSourse\obj\Debug\net7.0\refint\DataSourse.ArticlsSourse.WithCache.dll
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\DataSourse\obj\Debug\net7.0\DataSourse.ArticlsSourse.WithCache.pdb
+F:\C# learn\Проекты\HabrCustomClient\HabrCustomClient\DataSourse\obj\Debug\net7.0\ref\DataSourse.ArticlsSourse.WithCache.dll
